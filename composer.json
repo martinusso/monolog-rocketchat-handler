@@ -1,0 +1,26 @@
+{
+    "name": "martinusso/monolog-rocketchat-handler",
+    "type": "library",
+    "description": "A Monolog handler for Rocket.Chat webhooks",
+    "keywords": ["PHP", "monolog", "handler", "rocket.chat"],
+    "homepage": "https://github.com/martinusso/monolog-rocketchat-handler",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Breno Martinusso",
+            "email": "martinusso@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RocketChatHandler\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "cs": "phpcs --standard=PSR2 src",
+        "phpstan": "phpstan analyse src --level=7"
+    }
+}
