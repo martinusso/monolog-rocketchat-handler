@@ -10,11 +10,6 @@
 [![Total Downloads](https://poser.pugx.org/martinusso/monolog-rocketchat-handler/downloads)](https://packagist.org/packages/martinusso/monolog-rocketchat-handler)
 
 
-## Dependecies
-
-- Monolog
-
-
 ## Installation
 
 ```
