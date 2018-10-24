@@ -1,9 +1,6 @@
 # monolog-rocketchat-handler
 
-[![Build Status](https://travis-ci.org/martinusso/monolog-rocketchat-handler.svg?branch=master)](https://travis-ci.org/martinusso/monolog-rocketchat-handler)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/martinusso/monolog-rocketchat-handler/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/martinusso/monolog-rocketchat-handler/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/martinusso/monolog-rocketchat-handler/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/martinusso/monolog-rocketchat-handler/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/martinusso/monolog-rocketchat-handler/badges/build.png?b=master)](https://scrutinizer-ci.com/g/martinusso/monolog-rocketchat-handler/build-status/master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/martinusso/monolog-rocketchat-handler/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 [![License](https://poser.pugx.org/martinusso/monolog-rocketchat-handler/license)](https://packagist.org/packages/martinusso/monolog-rocketchat-handler)
