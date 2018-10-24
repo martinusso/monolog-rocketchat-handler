@@ -54,15 +54,16 @@ class RocketChatHandler extends AbstractProcessingHandler
      */
     protected function write(array $record): void
     {
+        $level = $record['level'] ?? $this->level;
         $content = [
             "text" => "",
             "attachments" => [
                 [
-                    "title" => $record['level_name'],
-                    "title_link" => $record['link'],
-                    "text" => $record['message'],
-                    "image_url" => $record['image_url'],
-                    "color" => $this->levelColors[$record['level']],
+                    "title" => $record['level_name'] ?? '',
+                    "title_link" => $record['link'] ?? '',
+                    "text" => $record['message'] ?? '',
+                    "image_url" => $record['image_url'] ?? '',
+                    "color" => $this->levelColors[$level],
                 ],
             ],
         ];
