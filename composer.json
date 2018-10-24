@@ -18,9 +18,5 @@
             "RocketChatHandler\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "scripts": {
-        "cs": "phpcs --standard=PSR2 src",
-        "phpstan": "phpstan analyse src --level=7"
-    }
+    "minimum-stability": "stable"
 }
