@@ -60,9 +60,9 @@ class RocketChatHandler extends AbstractProcessingHandler
             "attachments" => [
                 [
                     "title" => $record['level_name'] ?? '',
-                    "title_link" => $record['link'] ?? '',
+                    "titlelink" => $record['link'] ?? '',
                     "text" => $record['message'] ?? '',
-                    "image_url" => $record['image_url'] ?? '',
+                    "imageurl" => $record['image_url'] ?? '',
                     "color" => $this->levelColors[$level],
                 ],
             ],
