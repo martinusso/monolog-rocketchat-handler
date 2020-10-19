@@ -60,13 +60,17 @@ class RocketChatHandler extends AbstractProcessingHandler
             "attachments" => [
                 [
                     "title" => $record['level_name'] ?? '',
-                    "title_link" => $record['link'] ?? '',
                     "text" => $record['message'] ?? '',
-                    "image_url" => $record['image_url'] ?? '',
                     "color" => $this->levelColors[$level],
                 ],
             ],
         ];
+
+        foreach (['title_link', 'image_url'] as $field_name) {
+            if(!empty($record[$field_name])) {
+                $content['attachments'][$field_name] = $record[$field_name];
+            }
+        }
 
         foreach ($this->webhooks as $webhook) {
             $this->client->request('POST', $webhook, [
